@@ -3,28 +3,28 @@
     "title": "Playing Music, DumbSound",
     "description": "A Platform to Find top songs online, Subscribe for 1 Month Enjoy and feel the songs on dumbsound while doing your daily things.",
     "technology": "ReactJS",
-    "image": "../projects/dumbsound.svg",
+    "image": "https://ideapedyudi.github.io/profile/projects/dumbsound.svg",
     "link": null
   },
   {
     "title": "Social Media, Dumbgram",
     "description": "Social media application where we can share photos and videos. and also like, comment, follow, message.",
     "technology": "ReactJS",
-    "image": "../projects/dumbgram.svg",
+    "image": "https://ideapedyudi.github.io/profile/projects/dumbgram.svg",
     "link": null
   },
   {
     "title": "Link shortener, Ideaped Shortened",
     "description": "Here you have full control over your links. Easy, Shortened, Secure, Reliable and Statistics.",
     "technology": "ReactJS",
-    "image": "../projects/ideapedshortened.svg",
+    "image": "https://ideapedyudi.github.io/profile/projects/ideapedshortened.svg",
     "link": null
   },
   {
     "title": "Ideaped-array-sum",
     "description": "Calculates the total sum of a specified key across an array of objects.",
     "technology": "NPM",
-    "image": "../projects/ideaped-array-sum.svg",
+    "image": "https://ideapedyudi.github.io/profile/projects/ideaped-array-sum.svg",
     "link": "https://www.npmjs.com/package/ideaped-array-sum?activeTab=readme"
   }
 ]

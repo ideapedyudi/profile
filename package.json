@@ -2,7 +2,7 @@
   "name": "learn-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ideapedyudi.github.io/ideapedyudi-site",
+  "homepage": "https://ideapedyudi.github.io/profile",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@headlessui/react": "1.7.2",
