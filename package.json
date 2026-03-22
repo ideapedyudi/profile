@@ -1,8 +1,8 @@
 {
-  "name": "learn-react",
+  "name": "web-react",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://ideapedyudi.github.io/profile",
+  "homepage": "https://ideapedyudi.opindata.id",
   "dependencies": {
     "@emailjs/browser": "^3.7.0",
     "@headlessui/react": "1.7.2",
