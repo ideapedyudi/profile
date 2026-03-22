@@ -1,5 +1,19 @@
 [
   {
+    "title": "Cup Customizer",
+    "description": "Cup Customizer in AI generate design.",
+    "technology": "NextJS",
+    "image": "https://github.com/ideapedyudi/clothes-customizer/blob/master/src/images/preview.png?raw=true",
+    "link": null
+  },
+  {
+    "title": "Clothes Customizer",
+    "description": "Clothes Customizer in AI generate design.",
+    "technology": "ReactJS",
+    "image": "https://github.com/ideapedyudi/cup-customizer/blob/master/src/images/preview.png?raw=true",
+    "link": null
+  },
+  {
     "title": "Playing Music, DumbSound",
     "description": "A Platform to Find top songs online, Subscribe for 1 Month Enjoy and feel the songs on dumbsound while doing your daily things.",
     "technology": "ReactJS",
