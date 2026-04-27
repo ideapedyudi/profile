@@ -77,25 +77,26 @@ function MyBio({ closeBio }) {
             >
               <AiOutlineClose />
             </button>
-            <p className="pr-5 truncate">personal.js</p>
+            <p className="pr-5 truncate">personal.json</p>
           </div>
         </div>
       </div>
       <div className="overflow-y-auto scrollbar-thin h-full">
         <CopyBlock
-          language={`jsx`}
-          text={`
-const name = 'Muhammad Wahyudi'
-let location = 'Surabaya, Indonesia'
-
-let hobbies = [
-  "Game"
-  "Programming", 
-  "Eating food", 
-  "Badminton", 
-  "More programming", 
-]
-          `}
+          language={`json`}
+          text={`{
+  "personal": {
+    "name": "Muhammad Wahyudi",
+    "location": "Surabaya, Indonesia",
+    "hobbies": [
+      "Game",
+      "Programming",
+      "Eating food",
+      "Badminton",
+      "More programming"
+    ]
+  }
+}`}
           showLineNumbers={true}
           theme={nord}
           codeBlock
@@ -124,27 +125,32 @@ function Work({ closeWork }) {
             >
               <AiOutlineClose />
             </button>
-            <p className="pr-5 truncate">work.js</p>
+            <p className="pr-5 truncate">work.json</p>
           </div>
         </div>
       </div>
       <div className="overflow-y-auto scrollbar-thin h-full">
         <CopyBlock
-          language={`jsx`}
-          text={`// Work Information
-let profession = 'Full Stack Developer',
-let employer = 'EDIFly Solusi Indonesia',
-
-// Most important skills
-let languanges = [
-  "JavaScript",
-  "Node Js",
-]
-let frameworks = [
-  "React",
-  "React Native",
-  "Antd", // am still learning this...
-]`}
+          language={`json`}
+          text={`{
+  "works": [
+    {
+      "profession": "Full Stack Developer",
+      "employer": "EDIFly Solusi Indonesia",
+      "skills": {
+        "languages": [
+          "JavaScript",
+          "Node Js"
+        ],
+        "frameworks": [
+          "React",
+          "React Native",
+          "Antd"
+        ]
+      }
+    }
+  ]
+}`}
           showLineNumbers={true}
           theme={nord}
           codeBlock
@@ -306,7 +312,7 @@ function PersonalInfo({ setRender, render }) {
                       onClick={() => setRender("my-bio")}
                     >
                       <IoLogoJavascript />
-                      <span className="truncate">personal.js</span>
+                      <span className="truncate">personal.json</span>
                     </Popover.Panel>
                     <Popover.Panel
                       className={`px-4 my-1 ml-2.5 inline-flex items-center gap-2.5 transition-colors ${render === "work" ? "text-white" : "text-[#607B96]"
@@ -315,7 +321,7 @@ function PersonalInfo({ setRender, render }) {
                       onClick={() => setRender("work")}
                     >
                       <IoLogoJavascript />
-                      <span className="truncate">work.js</span>
+                      <span className="truncate">work.json</span>
                     </Popover.Panel>
                     <Popover.Panel
                       className={`px-4 my-1 ml-2.5 inline-flex items-center gap-2.5 transition-colors ${render === "gear" ? "text-white" : "text-[#607B96]"
