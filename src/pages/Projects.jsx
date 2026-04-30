@@ -76,6 +76,16 @@ export default function Projects() {
                 <span>NextJS</span>
               </button>
             </div>
+            <div className="flex items-center gap-6 ">
+              <button
+                className={`flex items-center gap-2.5 cursor-pointer transition-colors hover:text-white w-full ${filter === "ReactNative" ? "text-white" : "text-[#607B96]"
+                  }`}
+                onClick={() => setFilter("ReactNative")}
+              >
+                <GrReactjs />
+                <span>React Native</span>
+              </button>
+            </div>
             <div className="flex items-center gap-6">
               <button
                 className={`flex items-center gap-2.5 cursor-pointer transition-colors hover:text-white w-full ${filter === "NPM" ? "text-white" : "text-[#607B96]"
@@ -126,6 +136,9 @@ const Card = ({ data }) => {
     }
     if (value.includes("NPM")) {
       return <SiNpm />;
+    }
+    if (value.includes("ReactNative")) {
+      return <GrReactjs />;
     }
   }
 

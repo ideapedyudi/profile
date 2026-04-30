@@ -1,16 +1,72 @@
 [
   {
+    "title": "Amira",
+    "description": "Amira",
+    "technology": "ReactNative",
+    "image": "/projects/amira.jpeg",
+    "link": null
+  },
+  {
+    "title": "Accs",
+    "description": "Accs",
+    "technology": "ReactJS",
+    "image": "/projects/accs.jpeg",
+    "link": null
+  },
+  {
+    "title": "Ispax Desktop",
+    "description": "Ispax Desktop",
+    "technology": "ElectronJS",
+    "image": "/projects/ispax-desktop.jpeg",
+    "link": null
+  },
+  {
+    "title": "Ispax Web",
+    "description": "Ispax web",
+    "technology": "ReactJS",
+    "image": "/projects/ispax-web.jpeg",
+    "link": null
+  },
+  {
+    "title": "Spectra",
+    "description": "Spectra",
+    "technology": "ReactJS",
+    "image": "/projects/spectra.jpeg",
+    "link": null
+  },
+  {
+    "title": "x-cargo-vision",
+    "description": "x-cargo-vision Dekstop",
+    "technology": "ElectronJS",
+    "image": "/projects/x-cargo-desktop.jpeg",
+    "link": null
+  },
+  {
+    "title": "x-cargo-vision",
+    "description": "x-cargo-vision Mobile",
+    "technology": "ReactNative",
+    "image": "/projects/x-cargo-android.jpeg",
+    "link": null
+  },
+  {
+    "title": "Parx",
+    "description": "Parx is a mobile app that offers real-time parking solutions, helping users to locate and reserve parking spaces easily. It enhances user experience by saving time and minimizing parking-related stress, ensuring a smooth and efficient process from start to finish.",
+    "technology": "ReactNative",
+    "image": "/projects/parx.jpeg",
+    "link": null
+  },
+  {
     "title": "Cup Customizer",
     "description": "Cup Customizer in AI generate design.",
     "technology": "NextJS",
-    "image": "https://github.com/ideapedyudi/clothes-customizer/blob/master/src/images/preview.png?raw=true",
+    "image": "https://github.com/ideapedyudi/cup-customizer/blob/master/src/images/preview.png?raw=true",
     "link": null
   },
   {
     "title": "Clothes Customizer",
     "description": "Clothes Customizer in AI generate design.",
     "technology": "ReactJS",
-    "image": "https://github.com/ideapedyudi/cup-customizer/blob/master/src/images/preview.png?raw=true",
+    "image": "https://github.com/ideapedyudi/clothes-customizer/blob/master/src/images/preview.png?raw=true",
     "link": null
   },
   {
