@@ -50,7 +50,7 @@
   },
   {
     "title": "Parx",
-    "description": "Parx is a mobile app that offers real-time parking solutions, helping users to locate and reserve parking spaces easily. It enhances user experience by saving time and minimizing parking-related stress, ensuring a smooth and efficient process from start to finish.",
+    "description": "Parx",
     "technology": "ReactNative",
     "image": "/projects/parx.jpeg",
     "link": null
