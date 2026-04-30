@@ -64,10 +64,10 @@ export default function Home() {
                 }}
                 onInit={(typewriter) => {
                   typewriter
-                    .typeString("full-stack-developer")
+                    .typeString("Full-Stack-Developer")
                     .pauseFor(1000)
                     .deleteAll()
-                    .typeString("android-developer")
+                    .typeString("Android-Developer")
                     .pauseFor(500)
                     .start();
                 }}
