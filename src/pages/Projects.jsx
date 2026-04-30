@@ -3,6 +3,7 @@ import { BsFiles } from "@react-icons/all-files/bs/BsFiles";
 import { GoTriangleDown } from "@react-icons/all-files/go/GoTriangleDown";
 import { GrReactjs } from "@react-icons/all-files/gr/GrReactjs";
 import { IoLogoElectron } from "@react-icons/all-files/io5/IoLogoElectron";
+import { IoLogoNodejs } from "@react-icons/all-files/io5/IoLogoNodejs";
 import { SiNextDotJs } from "@react-icons/all-files/si/SiNextDotJs";
 import { SiNpm } from "@react-icons/all-files/si/SiNpm";
 
@@ -99,6 +100,16 @@ export default function Projects() {
             </div>
             <div className="flex items-center gap-6">
               <button
+                className={`flex items-center gap-2.5 cursor-pointer transition-colors hover:text-white w-full ${filter === "NodeJS" ? "text-white" : "text-[#607B96]"
+                  }`}
+                onClick={() => setFilter("NodeJS")}
+              >
+                <IoLogoNodejs />
+                <span>NodeJS</span>
+              </button>
+            </div>
+            <div className="flex items-center gap-6">
+              <button
                 className={`flex items-center gap-2.5 cursor-pointer transition-colors hover:text-white w-full ${filter === "NPM" ? "text-white" : "text-[#607B96]"
                   }`}
                 onClick={() => setFilter("NPM")}
@@ -145,14 +156,17 @@ const Card = ({ data }) => {
     if (value.includes("NextJS")) {
       return <SiNextDotJs />;
     }
-    if (value.includes("NPM")) {
-      return <SiNpm />;
-    }
     if (value.includes("ReactNative")) {
       return <GrReactjs />;
     }
     if (value.includes("ElectronJS")) {
       return <IoLogoElectron />;
+    }
+    if (value.includes("NPM")) {
+      return <SiNpm />;
+    }
+    if (value.includes("NodeJS")) {
+      return <IoLogoNodejs />;
     }
   }
 

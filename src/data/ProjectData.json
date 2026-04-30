@@ -1,5 +1,12 @@
 [
   {
+    "title": "Antigravity MongoDB MCP",
+    "description": "MCP (Model Context Protocol) server that bridges AI assistants (like Gemini via Antigravity) with your MongoDB database",
+    "technology": "NodeJS",
+    "image": "/projects/antigravity-mongodb-mcp.png",
+    "link": "https://github.com/ideapedyudi/antigravity-mcp-mongodb"
+  },
+  {
     "title": "Amira",
     "description": "Amira",
     "technology": "ReactNative",
