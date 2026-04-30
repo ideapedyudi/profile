@@ -3,6 +3,7 @@ import { AiOutlineTwitter } from "@react-icons/all-files/ai/AiOutlineTwitter";
 import { AiOutlineGithub } from "@react-icons/all-files/ai/AiOutlineGithub";
 import { AiOutlineClose } from "@react-icons/all-files/ai/AiOutlineClose";
 import { FaFacebookF } from "@react-icons/all-files/fa/FaFacebookF";
+import { FaLinkedinIn } from "@react-icons/all-files/fa/FaLinkedinIn";
 import { FiMenu } from "@react-icons/all-files/fi/FiMenu";
 import { useState, useEffect } from "react";
 import { AnimatePresence, motion } from "framer-motion";
@@ -38,7 +39,7 @@ export default function Layout({ children, setIsNavbar, isNavbar }) {
   return (
     <div
       className="h-screen flex bg-[#010c15] items-center justify-center bg-no-repeat bg-cover bg-center"
-      style={{ backgroundImage: `url("tower-nord.webp")` }}
+    // style={{ backgroundImage: `url("wlp.jpeg")` }}
     >
       <div className="custom-size bg-[#011627]/[85%] backdrop-blur-md rounded-lg border border-[#1E2D3D] flex justify-between flex-col overflow-hidden">
         <header className="grid grid-cols-12  text-[#607B96] border-b border-[#1E2D3D] items-center">
@@ -183,16 +184,16 @@ export default function Layout({ children, setIsNavbar, isNavbar }) {
                   <div className="col-span-11 flex items-center">
                     <p className="pr-4 py-1.5">find me in:</p>
                     <a
-                      href="https://twitter.com/wiscaksono"
+                      href="https://www.linkedin.com/in/msyudi/"
                       target="_blank"
                       rel="noreferrer"
-                      className="px-2.5 py-2.5 border-x border-[#1E2D3D] hover:text-white transition-colors"
-                      aria-label="Follow me on twitter"
+                      className="px-2.5 py-2.5 border-r border-[#1E2D3D] hover:text-white transition-colors"
+                      aria-label="Follow me on facebook"
                     >
-                      <AiOutlineTwitter />
+                      <FaLinkedinIn />
                     </a>
                     <a
-                      href="https://facebook.com/wiscaksono"
+                      href="https://facebook.com/ideapedyudi"
                       target="_blank"
                       rel="noreferrer"
                       className="px-2.5 py-2.5 border-r border-[#1E2D3D] hover:text-white transition-colors"
@@ -226,13 +227,13 @@ export default function Layout({ children, setIsNavbar, isNavbar }) {
           <div className="col-span-2 flex items-center">
             <p className="px-4 py-1.5 truncate">find me in:</p>
             <a
-              href="https://twitter.com/ideapedyudi"
+              href="https://www.linkedin.com/in/msyudi/"
               target="_blank"
               rel="noreferrer"
-              className="px-2.5 py-2.5 border-x border-[#1E2D3D] hover:text-white transition-colors"
-              aria-label="Follow me on twitter"
+              className="px-2.5 py-2.5 border-r border-[#1E2D3D] hover:text-white transition-colors"
+              aria-label="Follow me on facebook"
             >
-              <AiOutlineTwitter />
+              <FaLinkedinIn />
             </a>
             <a
               href="https://facebook.com/ideapedyudi"

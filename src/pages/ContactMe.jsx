@@ -165,7 +165,6 @@ export default function ContactMe() {
                   <CopyBlock
                     language={`jsx`}
                     text={`const button = document.querySelector('#sendBtn');
-
 const message = {
 	name: "John Doe",
 	email: "johndoe@gmail.com",
@@ -293,7 +292,6 @@ function FindMeAlso() {
           />
           <span>find-me-also</span>
         </Popover.Button>
-
         <Transition
           show={isOpen}
           enter="transition ease-out duration-200"
