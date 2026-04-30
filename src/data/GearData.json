@@ -4,6 +4,15 @@
       "gear": "Hardware / Computers",
       "gearList": [
         {
+          "item": "MacBook Pro 2020",
+          "desc": "MacBook Pro 2020 with Apple M1 Chip.",
+          "type": [
+            "laptop",
+            "MacBook",
+            "Apple"
+          ]
+        },
+        {
           "item": "MSI GF63, i5-10500H (10 Core), 16GB of RAM, RTX 3060, 512GB SSD, 1TB HDD",
           "desc": "Gen 10, I know it's old, but yeah that's fine.",
           "type": [

@@ -1,5 +1,4 @@
 /* eslint-disable jsx-a11y/anchor-is-valid */
-import { AiOutlineTwitter } from "@react-icons/all-files/ai/AiOutlineTwitter";
 import { AiOutlineGithub } from "@react-icons/all-files/ai/AiOutlineGithub";
 import { AiOutlineClose } from "@react-icons/all-files/ai/AiOutlineClose";
 import { FaFacebookF } from "@react-icons/all-files/fa/FaFacebookF";
