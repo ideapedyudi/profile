@@ -93,7 +93,7 @@ export default function Projects() {
                   }`}
                 onClick={() => setFilter("ElectronJS")}
               >
-                <GrReactjs />
+                <IoLogoElectron />
                 <span>ElectronJS</span>
               </button>
             </div>
