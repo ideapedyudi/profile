@@ -154,12 +154,18 @@ function Work({ closeWork }) {
       "skills": {
         "languages": [
           "JavaScript",
-          "Node Js"
+          "Typescript"
         ],
         "frameworks": [
-          "React",
-          "React Native",
-          "Antd"
+          "NextJS",
+          "ReactNative",
+          "Antd",
+          "TailwindCSS",
+          "NodeJS",
+          "ExpressJS",
+          "MySQL",
+          "MongoDB",
+          "Firebase"
         ]
       }
     }
