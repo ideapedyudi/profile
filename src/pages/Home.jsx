@@ -47,6 +47,11 @@ export default function Home() {
       <div className="flex items-center justify-center h-full max-w-7xl mx-auto">
         <div className="lg:w-1/2 w-full mx-10 lg:ml-10 flex flex-col justify-between h-[80%] lg:h-auto">
           <div className="mb-20">
+            <img
+              src="/projects/my.jpeg"
+              alt="Muhammad Wahyudi"
+              className="w-32 h-32 rounded-full object-cover border-2 border-[#48b3aa] mb-4"
+            />
             <p className="text-white text-lg">Hi all. I am</p>
             <h1 className="text-white lg:text-6xl md:text-5xl text-5xl">
               Muhammad Wahyudi
