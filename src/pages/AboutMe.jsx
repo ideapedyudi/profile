@@ -101,7 +101,7 @@ function MyBio({ closeBio }) {
   "personal": {
     "name": "Muhammad Wahyudi",
     "age": ${age},
-    "location": "Surabaya, Indonesia",
+    "location": "Bandung, West Java, Indonesia",
     "hobbies": [
       "Game",
       "Programming",
