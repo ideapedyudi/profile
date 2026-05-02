@@ -90,11 +90,30 @@ export default function Home() {
               <span className="text-white">=</span>{" "}
               <a
                 href="https://github.com/ideapedyudi"
-                className="text-[#E99287]"
+                className="text-[#E99287] hover:text-[#4D5BCE] transition-colors"
                 target="_blank"
                 rel="noreferrer"
               >
                 "https://github.com/ideapedyudi"
+              </a>
+            </p>
+          </div>
+
+          <div className="flex flex-col gap-2.5 mt-3">
+            <p className="text-[#607B96]">
+              // you can also find my resume here
+            </p>
+            <p>
+              <span className="text-[#4D5BCE]">const</span>{" "}
+              <span className="text-[#43D9AD]">resumeLink</span>{" "}
+              <span className="text-white">=</span>{" "}
+              <a
+                href="/resume.pdf"
+                className="text-[#E99287] hover:text-[#4D5BCE] transition-colors"
+                target="_blank"
+                rel="noreferrer"
+              >
+                "resume.pdf"
               </a>
             </p>
           </div>

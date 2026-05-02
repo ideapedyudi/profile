@@ -66,42 +66,42 @@
     "title": "Cup Customizer",
     "description": "Cup Customizer in AI generate design.",
     "technology": "NextJS",
-    "image": "https://github.com/ideapedyudi/cup-customizer/blob/master/src/images/preview.png?raw=true",
+    "image": "/projects/cup-customizer.png",
     "link": null
   },
   {
     "title": "Clothes Customizer",
     "description": "Clothes Customizer in AI generate design.",
     "technology": "ReactJS",
-    "image": "https://github.com/ideapedyudi/clothes-customizer/blob/master/src/images/preview.png?raw=true",
+    "image": "/projects/clothes-customizer.png",
     "link": null
   },
   {
     "title": "Playing Music, DumbSound",
     "description": "A Platform to Find top songs online, Subscribe for 1 Month Enjoy and feel the songs on dumbsound while doing your daily things.",
     "technology": "ReactJS",
-    "image": "https://ideapedyudi.github.io/profile/projects/dumbsound.svg",
+    "image": "/projects/dumbsound.svg",
     "link": null
   },
   {
     "title": "Social Media, Dumbgram",
     "description": "Social media application where we can share photos and videos. and also like, comment, follow, message.",
     "technology": "ReactJS",
-    "image": "https://ideapedyudi.github.io/profile/projects/dumbgram.svg",
+    "image": "/projects/dumbgram.svg",
     "link": null
   },
   {
     "title": "Link shortener, Ideaped Shortened",
     "description": "Here you have full control over your links. Easy, Shortened, Secure, Reliable and Statistics.",
     "technology": "ReactJS",
-    "image": "https://ideapedyudi.github.io/profile/projects/ideapedshortened.svg",
+    "image": "/projects/ideapedshortened.svg",
     "link": null
   },
   {
     "title": "Ideaped-array-sum",
     "description": "Calculates the total sum of a specified key across an array of objects.",
-    "technology": "NPM",
-    "image": "https://ideapedyudi.github.io/profile/projects/ideaped-array-sum.svg",
+    "technology": "NodeJS",
+    "image": "/projects/ideaped-array-sum.svg",
     "link": "https://www.npmjs.com/package/ideaped-array-sum?activeTab=readme"
   }
 ]
