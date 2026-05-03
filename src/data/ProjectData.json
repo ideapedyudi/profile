@@ -2,7 +2,7 @@
   {
     "title": "Primecaptcha",
     "description": "A lightweight, dependency-free CAPTCHA library for Node.js that generates secure, distortion-resistant text and image-based captchas with customizable appearance and validation.",
-    "technology": "Typescript",
+    "technology": "NodeJS",
     "image": "/projects/primecaptcha.png",
     "link": "https://www.npmjs.com/package/primecaptcha"
   },
