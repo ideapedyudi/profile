@@ -1,5 +1,12 @@
 [
   {
+    "title": "Primecaptcha",
+    "description": "A lightweight, dependency-free CAPTCHA library for Node.js that generates secure, distortion-resistant text and image-based captchas with customizable appearance and validation.",
+    "technology": "Typescript",
+    "image": "/projects/primecaptcha.png",
+    "link": "https://www.npmjs.com/package/primecaptcha"
+  },
+  {
     "title": "Antigravity MongoDB MCP",
     "description": "MCP (Model Context Protocol) server that bridges AI assistants (like Gemini via Antigravity) with your MongoDB database",
     "technology": "NodeJS",
